@@ -1,0 +1,6 @@
+interface:
+  display_name: "Project Plugin Management"
+  short_description: "Initialize project plugin rules"
+  default_prompt: "Use $project-plugin-management to initialize plugin management rules for this project."
+policy:
+  allow_implicit_invocation: true
