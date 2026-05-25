@@ -1,0 +1,45 @@
+name: 插件信息更新
+about: 报告 Claude 插件链接、描述、推荐方式或影响关系的变化
+labels: [plugin-update]
+body:
+  - type: input
+    id: plugin
+    attributes:
+      label: 插件名称
+      placeholder: 例如：Frontend Design
+    validations:
+      required: true
+  - type: input
+    id: official_url
+    attributes:
+      label: Claude 官方插件页
+      placeholder: https://claude.com/plugins/...
+    validations:
+      required: true
+  - type: dropdown
+    id: change_type
+    attributes:
+      label: 变更类型
+      options:
+        - 链接错误
+        - 描述不准确
+        - 推荐方式需要调整
+        - 插件影响关系需要补充
+        - 新增官方插件
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: detail
+    attributes:
+      label: 具体说明
+      description: 请说明现在的问题、建议改成什么，以及依据。
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: 依据来源
+      description: 优先粘贴 Claude 官方插件页、官方 manifest 或插件作者仓库链接。
+    validations:
+      required: true
