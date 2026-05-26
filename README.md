@@ -534,28 +534,6 @@ Use $project-plugin-management to initialize plugin management rules for this pr
 
 ---
 
-## 其他日常事务
-
-### [`LegalZoom`](https://claude.com/plugins/legalzoom)
-
-- 核心功能：AI 审查法律文件风险，并在需要时建议咨询律师或连接 LegalZoom 专业网络。
-- 使用场景：合同、合规文档、条款审查、识别需要律师介入的风险。
-- 典型用法：
-
-```text
-用 LegalZoom 审查这份合同，标出关键风险和需要律师确认的条款
-```
-
-- 推荐方式：**按需**：只有处理法律文件、合同条款或合规风险时开启；它不能替代律师意见，敏感文件要注意授权范围。
-
-影响关系：
-
-1. [`LegalZoom`](https://claude.com/plugins/legalzoom) 只应处理法律文件相关任务，不适合常驻到代码开发上下文中。
-2. 处理合同或合规文件时，避免同时开启不必要的代码仓库、浏览器或网页采集插件，减少敏感信息暴露面。
-3. 如果文件内容涉及财务、运营或产品策略，可先用对应业务插件整理事实，再用 [`LegalZoom`](https://claude.com/plugins/legalzoom) 做法律风险视角审查。
-
----
-
 ## 通用办公与业务插件
 
 ### [`Productivity`](https://claude.com/plugins/productivity)
