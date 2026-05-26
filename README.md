@@ -1,8 +1,8 @@
-# Claude Plugin Guide
+# Claude Plugin Management Skill
 
 [![GitHub stars](https://img.shields.io/github/stars/hongsedaima/Claude-Plugin-Management-Skill?style=social)](https://github.com/hongsedaima/Claude-Plugin-Management-Skill/stargazers)
 [![Claude Plugin Market](https://img.shields.io/badge/Claude-Plugin%20Market-orange)](https://claude.com/plugins)
-[![中文指南](https://img.shields.io/badge/Guide-%E4%B8%AD%E6%96%87-blue)](#claude-plugin-guide)
+[![中文指南](https://img.shields.io/badge/Guide-%E4%B8%AD%E6%96%87-blue)](#claude-plugin-management-skill)
 
 一份面向新手的 **Claude 官方插件市场**速查表：每个插件做什么、什么时候开、哪些插件会互相覆盖。
 
@@ -655,7 +655,7 @@ Claude 官方插件市场会更新，欢迎提交 issue 或 PR：
 
 [![GitHub stars](https://img.shields.io/github/stars/hongsedaima/Claude-Plugin-Management-Skill?style=social)](https://github.com/hongsedaima/Claude-Plugin-Management-Skill/stargazers)
 [![Claude Plugin Market](https://img.shields.io/badge/Claude-Plugin%20Market-orange)](https://claude.com/plugins)
-[![涓枃鎸囧崡](https://img.shields.io/badge/Guide-%E4%B8%AD%E6%96%87-blue)](#claude-plugin-guide)
+[![涓枃鎸囧崡](https://img.shields.io/badge/Guide-%E4%B8%AD%E6%96%87-blue)](#claude-plugin-management-skill)
 [![English](https://img.shields.io/badge/Guide-English-green)](#english-version)
 
 A beginner-friendly guide to the **Claude official plugin marketplace**: what each plugin does, when to use it, and which plugins overlap.
